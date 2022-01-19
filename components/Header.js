@@ -1,9 +1,20 @@
-import Image from "next/image"
+import {
+    BadgeCheckIcon,
+    CollectionIcon,
+    HomeIcon,
+    LightningBoltIcon,
+    SearchIcon,
+    UserIcon,
+} from "@heroicons/react/outline";
+import Image from "next/image";
+import HeaderItem from "./HeaderItem";
 
 function Header() {
     return (
         <header className="">
-            <h1>This is the header</h1>
+            <div>
+                <HeaderItem title='HOME' Icon={} />
+            </div>
             <Image 
             className="object-contain"
             src="https://links.papareact.com/ua6" 
