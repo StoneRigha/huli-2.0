@@ -18,9 +18,12 @@ module.exports = {
   },
   reactStrictMode: true,
   images:{
+    loader:'akamai',
+    path: '',
     unoptimized: true,
-    domains: ["links.papareact.com", "image.tmdb.org"],
+    domains: ["links.papareact.com", "image.tmdb.org"], 
   },
+  
 };
 
 
