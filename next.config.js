@@ -51,7 +51,17 @@ const nextConfig = {
 
 module.exports = {
   reactStrictMode: true,
-
+  exportPathMap: async function (
+        defaultPathMap,
+        { dev, dir, outDir, distDir, buildId },
+      ) {
+        // exportPathMap: async function() {
+        //   const paths = {
+        //     '/': { page: '/' }
+        //   };
+        //   return paths; 
+        // }
+      },
   images: {
     domains: ['links.papareact.com','image.tmdb.org'],
   },
