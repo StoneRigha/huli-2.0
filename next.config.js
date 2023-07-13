@@ -33,10 +33,12 @@ module.exports = {
     defaultPathMap,
     { dev, dir, outDir, distDir, buildId },
   ) {
-    const paths = {
-      '/': { page: '/' },
-    };
-    return paths;
+    exportPathMap: async function() {
+      const paths = {
+        '/': { page: '/' }
+      };
+      return paths; 
+    }
   },
   reactStrictMode: true,
   images:{
