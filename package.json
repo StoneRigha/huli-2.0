@@ -2,7 +2,7 @@
   "name": "huli-2.0",
   "private": true,
   "scripts": {
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
