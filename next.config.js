@@ -40,7 +40,7 @@ module.exports = {
     //     defaultPathMap,
         {dev,dir, outDir, distDir, buildId}
         ){
-          return{
+          return{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
             '/':{page: '/'}
           }
         },
